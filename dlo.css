@@ -1,0 +1,81 @@
+html, body{
+	font-size: 80%;
+	font-family: 'Courier New', Courier, monoscape;
+	letter-spacing: 0.15em;
+	background-color: #202A44;
+
+}
+
+#page{
+	max-width: 800px;
+    height: 800px;
+	margin: 10px auto 10px auto;
+	padding:20px 20px 20px 20px;
+	border: 4px double #D4CAA3;
+	background-color: transparent;
+   backdrop-filter: blur(10px);
+}
+
+p img{
+	width:600px ;
+	height: 200px;
+	margin: 10px auto 10px auto;
+
+}
+
+i{
+  display: block;
+  padding: 10px;
+  transition: all 0.3s ease;
+  color: #D2B48C;
+  font-size: 30px;
+  text-shadow:0 0 2px rgb(237, 229, 229);
+}
+i:hover{
+    background:linear-gradient(rgb(0, 0, 0), rgb(255, 255, 255));
+    border-radius: 5px;
+}
+
+
+#logo img{
+	width: 250px;
+	height: 130px;
+	margin-left: 280px;
+	margin-right: 300px;
+	margin-bottom: 20px;
+}
+
+
+ul{
+	width: 570px;
+	padding: 15px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #D4CAA3;
+	border-bottom: 1px solid #D4CAA3;
+	text-align: center;
+}
+
+
+li{ 	
+	display: inline;
+	margin: 0px 3px;
+}
+
+
+p{ 
+	text-align: center;
+	width: 600px;
+	margin: 20px auto 20px auto;
+	font-weight: normal;
+    color: white;
+    text-shadow: 0 0 3px;
+    font-size: 20px;
+}
+
+
+a{
+	color: #000000;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 0px 18px 5px 18px;
+}
